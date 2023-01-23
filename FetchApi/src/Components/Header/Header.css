@@ -1,0 +1,83 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.Header {
+    height: 80px;
+    background-color: rgb(56, 152, 197);
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    position: fixed; 
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+.Header-Logo {
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Shop {
+    width:70px;
+    height:90px;
+}
+.Header-Links {
+     width:25%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.nav1:hover {
+      color:#ff6d00;
+      cursor: pointer;  
+      font-weight: 650;
+}z
+.nav2:hover {
+    cursor: pointer; 
+    color:#ff6d00;
+}
+.nav3:hover {
+    cursor: pointer;  
+    color:#ff6d00;
+
+}
+.Header_Toggle{
+    width: 90px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart {
+    text-decoration: none;
+    color: white;
+}
+.tog {
+    font-size:35px;
+}
+.drop-list{
+    background-color: white;
+    position: absolute;
+    padding: 5px;
+    font-size: 15px;
+    
+}
+.invisible{
+    background-color: none;
+    width: 150px;
+    height: 50px;
+    position: absolute; 
+    /* text-decoration: none; */
+}
+
+@media screen and (max-width:465px) {
+    .Header-Links {
+        display: none;
+    }
+}

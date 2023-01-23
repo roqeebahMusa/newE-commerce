@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Details-Holder{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.Details-card {
+    width:50%;
+    height:50%;
+    background-color: white;
+    display: flex;
+    padding:5px;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px 0px 6px 0px;
+  
+}
+.Details-image-holder {
+    width:50%;
+    height:420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Detail-Image {
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.Details-Details{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Detail-button{
+    padding-inline: 50px;
+    padding-block: 10px;
+    background-color: rgb(56, 152, 197);
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    width:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
